@@ -1,0 +1,7 @@
+I have tested the application from my end and the following functionality works
+1. When the user clicks on "Add to cart", the button gets disabled.
+2. In the cart, the user can edit the quantity and would see the updated purchase total
+3. If the user removes an item from the cart, then the "Add to cart" button for the respective product is enabled.
+4. If the user clicks on the "Purchase" button then the user gets an alert message for the purchase and the cart is set to null, all the disabled buttons are set to enabled.
+5. When it comes to UI design, I have tried to follow the guidelines you mentioned in the requirements. I created  a responsive design but was not fully successful in aligning the product images in the image container as given in the guideline output image. 
+6. I did not use any external library or framework and it is done in pure html, css and javascript.
