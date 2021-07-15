@@ -6,16 +6,6 @@
     font-size: 1rem;
 } */
 
-@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700');
-@import url("https://fonts.googleapis.com/css?family=Metal+Mania");
-
-@font-face {
-    font-family: "Booter - Zero Zero";
-    src: url("Fonts/Booter - Zero Zero.woff") format("woff"),
-         url("Fonts/Booter - Zero Zero.woff2") format("woff2");
-    font-weight: normal;
-    font-style: normal;
-}
 
 * {
     box-sizing: border-box;
@@ -60,6 +50,11 @@ p {
     padding: .25em 0;
     justify-content: center;
     text-align: center;
+    bottom:0;
+    left:0;
+    width:100%;
+    position:fixed;
+    
 }
 
 .main-footer-container {
